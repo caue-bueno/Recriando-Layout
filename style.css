@@ -9,6 +9,7 @@ body {
     position: relative;
 }
 
+
 nav {
     margin:71px 98px 101px 99px;
 
@@ -28,8 +29,14 @@ ul {
 
 ul li a{
     text-decoration: none;
-    color: white
+    color: white;
 }
+
+ul li a:hover {
+    text-decoration: overline;
+    
+}
+
 
 main {
     display: flex;
@@ -82,11 +89,16 @@ footer {
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
     font-size: 14px;
+    
 }
 
 footer a {
     text-decoration: none;
     color: white;
+}
+
+footer a:hover {
+    color: #00BFA6;
 }
 
 .lock {
